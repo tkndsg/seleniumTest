@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2ddaaf7-7a91-43fa-af01-440ad31559e8" name="Default Changelist" comment="" />
+    <list default="true" id="f2ddaaf7-7a91-43fa-af01-440ad31559e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/etransfer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/etransfer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/360k.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/cat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_po/contact_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_po/contact_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_po/test_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_po/test_contact.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_po/test_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+            <state relative-caret-position="559">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -28,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_po/contact_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="99" selection-start-line="20" selection-start-column="99" selection-end-line="20" selection-end-column="99" />
+            <state relative-caret-position="349">
+              <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -51,6 +59,9 @@
       <find>38</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -60,11 +71,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1676" />
-    <option name="y" value="-320" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -75,13 +86,23 @@
         <subPane>
           <expand>
             <path>
-              <item name="etransfer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="etransfer" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="etransfer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="etransfer" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumTest" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumTest" type="462c0819:PsiDirectoryNode" />
+              <item name="test_po" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -91,8 +112,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -163,12 +185,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 26m 33s.xml">
-      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_contact_TestContact_test_setup - 2019.08.08 at 09h 29m 11s.xml">
-      <configuration name="pytest for test_contact.TestContact.test_setup" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 29m 32s.xml">
       <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
     </history-entry>
@@ -193,17 +209,23 @@
     <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 10h 28m 21s.xml">
       <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 23h 29m 50s.xml">
+      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 23h 30m 50s.xml">
+      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-320" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.18335089" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.22985469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5024233" side_tool="true" visible="true" weight="0.18335089" />
+      <window_info id="Favorites" order="2" sideWeight="0.5024233" side_tool="true" weight="0.18335089" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -220,8 +242,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test_po/test_contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+        <state relative-caret-position="559">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -230,8 +252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_po/contact_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="99" selection-start-line="20" selection-start-column="99" selection-end-line="20" selection-end-column="99" />
+        <state relative-caret-position="349">
+          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>

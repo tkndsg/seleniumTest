@@ -19,7 +19,7 @@ class ContactPage:
         self.driver.execute_script("arguments[0].click()", img)
         sleep(2)
         uploadimg = self.driver.find_element(By.XPATH, '//*[@id="__dialog__avatarEditor__"]/div/div[2]/div/div[1]/div[2]/a/input')
-        uploadimg.send_keys("G:\Program Files\JetBrains\etransfer\images\360k.jpg")
+        uploadimg.send_keys("E:\PythonWorkSpace\seleniumTest\images\cat.jpg")
         sleep(1)
         self.driver.find_element(By.XPATH, '//*[@id="__dialog__avatarEditor__"]/div/div[3]/a[1]').click()
         sleep(3)
