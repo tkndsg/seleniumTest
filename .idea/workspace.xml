@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2ddaaf7-7a91-43fa-af01-440ad31559e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/etransfer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/etransfer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_po/wework_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/360k.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/cat.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_po/contact_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_po/contact_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_po/test_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_po/test_contact.py" afterDir="false" />
     </list>
@@ -24,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_po/test_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="437">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -33,11 +30,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_po/wework_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_po/contact_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+            <state relative-caret-position="152">
+              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -66,16 +72,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/testcase/test_case.py" />
-        <option value="$PROJECT_DIR$/test_po/test_contact.py" />
+        <option value="$PROJECT_DIR$/test_po/wework_page.py" />
         <option value="$PROJECT_DIR$/test_po/contact_page.py" />
+        <option value="$PROJECT_DIR$/test_po/test_contact.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -88,16 +98,6 @@
             <path>
               <item name="seleniumTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="seleniumTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumTest" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumTest" type="b2602c69:ProjectViewProjectNode" />
@@ -185,24 +185,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 29m 32s.xml">
-      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 32m 49s.xml">
-      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 34m 36s.xml">
-      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 49m 35s.xml">
-      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 51m 39s.xml">
-      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 52m 04s.xml">
-      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 53m 19s.xml">
       <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
     </history-entry>
@@ -215,23 +197,50 @@
     <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 23h 30m 50s.xml">
       <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 23h 32m 33s.xml">
+      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.09 at 00h 25m 43s.xml">
+      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.09 at 00h 26m 10s.xml">
+      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.09 at 00h 29m 44s.xml">
+      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.09 at 00h 36m 44s.xml">
+      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.09 at 00h 42m 30s.xml">
+      <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.22985469" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.18335089" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5024233" side_tool="true" weight="0.18335089" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2516269" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -242,18 +251,25 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test_po/test_contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_po/wework_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_po/contact_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+        <state relative-caret-position="152">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>

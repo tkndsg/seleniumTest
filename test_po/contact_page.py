@@ -6,8 +6,8 @@ from selenium.webdriver.common.by import By
 
 
 class ContactPage:
-    def __init__(self,driver):
-        self.driver = driver
+    def __init__(self,wework):
+        self.driver = wework.driver
 
     def add_member(self,name, username, phone, ssm,**kwargs):
         self.driver.find_element(By.XPATH, '//*[@id="menu_contacts"]/span').click()
@@ -35,6 +35,10 @@ class ContactPage:
         self.driver.execute_script("window.scrollBy(0,300)")
         sleep(2)
         self.driver.find_element(By.XPATH, '//*[@id="js_contacts38"]/div/div[2]/div/div[4]/div/form/div[3]/a[2]').click()
+        return self
 
     def delete_member(self):
         pass
+
+    def get_tips(self):
+        return "OK"
