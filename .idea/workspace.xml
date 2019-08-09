@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2ddaaf7-7a91-43fa-af01-440ad31559e8" name="Default Changelist" comment="" />
+    <list default="true" id="f2ddaaf7-7a91-43fa-af01-440ad31559e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_po/elementutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/360k.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/cat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_po/contact_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_po/contact_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_po/test_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_po/test_contact.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_po/test_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+            <state relative-caret-position="228">
+              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -25,14 +32,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_po/contact_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="99" selection-start-line="20" selection-start-column="99" selection-end-line="20" selection-end-column="99" />
+            <state relative-caret-position="78">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_po/elementutil.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -49,48 +65,45 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>38</find>
+      <find>360</find>
+      <find>isElementPresent</find>
+      <find>所查找的元素存在于页面上</find>
+      <find>页面中未找到所需要的元素</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/testcase/test_case.py" />
-        <option value="$PROJECT_DIR$/test_po/test_contact.py" />
+        <option value="$PROJECT_DIR$/test_po/elementutil.py" />
         <option value="$PROJECT_DIR$/test_po/contact_page.py" />
+        <option value="$PROJECT_DIR$/test_po/test_contact.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1676" />
-    <option name="y" value="-320" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="etransfer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="etransfer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="etransfer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="etransfer" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
@@ -112,6 +125,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.pytest for test_contact.TestContact">
+    <configuration name="contact_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="etransfer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_po" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_po/contact_page.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_contact.TestContact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="etransfer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,6 +158,21 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_contact.TestContact&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_contact.TestContact.test_addmember" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="etransfer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_po" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_contact.TestContact.test_addmember&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -145,6 +194,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_contact.TestContact" />
+        <item itemvalue="Python tests.pytest for test_contact.TestContact.test_addmember" />
+        <item itemvalue="Python.contact_page" />
         <item itemvalue="Python tests.pytest for test_contact.TestContact.test_setup" />
       </list>
     </recent_temporary>
@@ -163,47 +214,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 26m 33s.xml">
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 14h 57m 23s.xml">
       <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_contact_TestContact_test_setup - 2019.08.08 at 09h 29m 11s.xml">
-      <configuration name="pytest for test_contact.TestContact.test_setup" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 29m 32s.xml">
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 15h 07m 25s.xml">
       <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 32m 49s.xml">
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 15h 08m 26s.xml">
       <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 34m 36s.xml">
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 15h 10m 18s.xml">
       <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 49m 35s.xml">
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 15h 23m 36s.xml">
       <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 51m 39s.xml">
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 15h 26m 40s.xml">
       <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 52m 04s.xml">
+    <history-entry file="pytest_for_test_contact_TestContact_test_addmember - 2019.08.08 at 15h 33m 22s.xml">
+      <configuration name="pytest for test_contact.TestContact.test_addmember" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 15h 49m 49s.xml">
       <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 09h 53m 19s.xml">
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 15h 57m 34s.xml">
       <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 10h 28m 21s.xml">
+    <history-entry file="pytest_for_test_contact_TestContact - 2019.08.08 at 15h 58m 46s.xml">
       <configuration name="pytest for test_contact.TestContact" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-320" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.18335089" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49710983" visible="true" weight="0.25892857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5024233" side_tool="true" visible="true" weight="0.18335089" />
+      <window_info active="true" id="Favorites" order="2" sideWeight="0.50289017" side_tool="true" visible="true" weight="0.25892857" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43278688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -218,20 +268,27 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_po/test_contact.py">
+    <entry file="file://$PROJECT_DIR$/test_po/contact_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+        <state relative-caret-position="78">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_po/contact_page.py">
+    <entry file="file://$PROJECT_DIR$/test_po/elementutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="99" selection-start-line="20" selection-start-column="99" selection-end-line="20" selection-end-column="99" />
+        <state relative-caret-position="57">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_po/test_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
