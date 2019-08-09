@@ -2,13 +2,13 @@ from time import sleep
 
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
+from selenium.webdriver.remote.webdriver import WebDriver
+
+from test_po.base_page import BasePage
+from test_po.profile_page import ProfilePage
 
 
-class ContactPage:
-
-    def __init__(self,wework):
-        self.driver = wework.driver
-
+class ContactPage(BasePage):
     def add_member(self,name, username, phone, ssm,**kwargs):
         self.driver.find_element(By.XPATH, '//*[@id="menu_contacts"]/span').click()
         sleep(5)
@@ -45,6 +45,11 @@ class ContactPage:
 
     def delete_member(self):
         pass
+
+    def search(self, key):
+        self.driver.find_element(By.XPATH, '//*[@id="menu_contacts"]/span').click()
+        self.driver.find_element(By.ID, 'memberSearchInput').send_keys(key)
+        return ProfilePage(self.driver)
 
     def get_tips(self):
         return "OK"
