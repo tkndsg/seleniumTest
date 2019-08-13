@@ -17,7 +17,7 @@ class TestContact:
         self.wework.driver.implicitly_wait(5)
 
     def teardown_class(self):
-        sleep(2)
+        sleep(5)
         self.wework.quit()
 
     def test_addmember(self):

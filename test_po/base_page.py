@@ -18,3 +18,7 @@ class BasePage:
     def change_to_absolute_path(self,relative_path):
         absolute_path = (os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+relative_path).replace("/", "\\")
         return absolute_path
+
+    def slip_down(self, step=300):
+        scrip_content = "window.scrollBy(0,"+step+")"
+        self.driver.execute_script(scrip_content)
