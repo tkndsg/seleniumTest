@@ -1,12 +1,17 @@
 import os
 from time import sleep
 
+from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 
 class BasePage:
+    _index_tab = (By.XPATH, '//*[@id="menu_index"]/span')
+    _contact_tab = (By.XPATH, '//*[@id="menu_contacts"]/span')
+    _managetool_tab = (By.XPATH, '//*[@id="menu_manageTools"]/span')
+
     def __init__(self, driver: WebDriver):
         self.driver = driver
 
@@ -22,3 +27,14 @@ class BasePage:
     def slip_down(self, step=300):
         scrip_content = "window.scrollBy(0,"+step+")"
         self.driver.execute_script(scrip_content)
+
+    def sleep(self,second):
+        sleep(second)
+
+    def goto_tab(self, tabname):
+        if tabname == "首页":
+            self.driver.find_element(*self._index_tab).click()
+        if tabname == "通讯录":
+            self.driver.find_element(*self._contact_tab).click()
+        if tabname == "管理工具":
+            self.driver.find_element(*self._managetool_tab).click()

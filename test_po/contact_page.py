@@ -12,20 +12,27 @@ class ContactPage(BasePage):
     _ssm_check = (By.CSS_SELECTOR, ".ww_label_Middle .ww_checkbox")
     _comfire_save_btn = (By.CSS_SELECTOR, ".js_btn_save")
     _commit_img_btn = (By.XPATH, '//*[@id="__dialog__avatarEditor__"]/div/div[3]/a[1]')
+    _name_input = (By.XPATH, '//*[@id="username"]')
+    _username_input= (By.XPATH, '//*[@id="memberAdd_acctid"]')
+    _phone_input = (By.XPATH, '//*[@id="memberAdd_phone"]')
+    _search_input = (By.ID, 'memberSearchInput')
+
+    def come_to_contact_tab(self):
+        self.driver.find_element(*self._contact_tab).click()
 
     def add_member(self,name, username, phone, ssm,**kwargs):
+        self.come_to_contact_tab()
         # 进入新增页面
-        self.driver.find_element(*self._contact_tab).click()
-        sleep(3)
+        sleep(2)
         self.driver.find_element(*self._add_member_but).click()
 
         # 上传头像
         self.upload_img("/images/cat.jpg")
 
         # 填写信息
-        self.driver.find_element(By.XPATH, '//*[@id="username"]').send_keys(name)
-        self.driver.find_element(By.XPATH, '//*[@id="memberAdd_acctid"]').send_keys(username)
-        self.driver.find_element(By.XPATH, '//*[@id="memberAdd_phone"]').send_keys(phone)
+        self.driver.find_element(*self._name_input).send_keys(name)
+        self.driver.find_element(*self._username_input).send_keys(username)
+        self.driver.find_element(*self._phone_input).send_keys(phone)
 
         # 下滑页面
         self.slip_down("250")
@@ -42,8 +49,10 @@ class ContactPage(BasePage):
         pass
 
     def search(self, key):
-        self.driver.find_element(By.XPATH, '//*[@id="menu_contacts"]/span').click()
-        self.driver.find_element(By.ID, 'memberSearchInput').send_keys(key)
+        self.come_to_contact_tab()
+        search_input = self.driver.find_element(*self._search_input)
+        search_input.clear()
+        search_input.send_keys(key)
         return ProfilePage(self.driver)
 
     def get_tips(self):

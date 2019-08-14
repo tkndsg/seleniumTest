@@ -7,7 +7,7 @@ class WeworkPage:
         self.driver.get("https://work.weixin.qq.com/wework_admin/frame#index")
         self.driver.maximize_window()
         cookies = {
-            "wwrtx.sid":"ZRNJMZN4hWEA-UnHCIGv0wapF7HwezZ_YPiwXqvUe_mpPpQDRSrhFNA6_yBnUAOG"
+            "wwrtx.sid":"ZRNJMZN4hWEA-UnHCIGv051rEfsBxpk4XGiQbQaNQsZJQsu1TTQ3ICQ3o7gRgTAp"
         }
         for k, v in cookies.items():
             self.driver.add_cookie({"name":k, "value":v})
