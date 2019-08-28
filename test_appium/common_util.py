@@ -1,6 +1,4 @@
-from selenium.common.exceptions import NoSuchElementException
-
-from test_appium.base_page import BasePage
+from test_appium.pages.base_page import BasePage
 
 
 class CommonUtil(BasePage):

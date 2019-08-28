@@ -10,4 +10,5 @@ def driver():
     caps["appActivity"] = ".view.WelcomeActivityAlias"
     caps["autoGrantPermissions"] = True
     driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
+    driver.implicitly_wait(15)
     return driver

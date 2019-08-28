@@ -2,19 +2,16 @@ from time import sleep
 
 import pytest
 
-from appium import webdriver
-from selenium.webdriver.remote.webdriver import WebDriver
-
-from test_appium.base_page import BasePage
+from test_appium.pages.base_page import BasePage
 from test_appium.common_util import CommonUtil
-from test_appium.login_page import LoginPage
+from test_appium.pages.login_page import LoginPage
 from test_appium.driver import driver
-from test_appium.optional_page import OptionalPage
-from test_appium.search_page import SearchPage
-from test_appium.xueqiu_page import XueqiuPage
+from test_appium.pages.optional_page import OptionalPage
+from test_appium.pages.search_page import SearchPage
+from test_appium.pages.xueqiu_page import XueqiuPage
 
 
-class TestLogin(BasePage):
+class TestLogin:
     def setup_class(self):
         self.driver = driver()
         self.xueqiu = XueqiuPage(self.driver)
@@ -25,33 +22,13 @@ class TestLogin(BasePage):
         sleep(5)
         self.driver.quit()
 
-    def test_wrong_phone(self):
-        self.xueqiu.goto_login()  # todo 尚未实现
+    @pytest.mark.parametrize("user, pwd, tips",[("999999999999999","123456","手机号"),("13169646888","123456","密码错误"),("13169646888","123456","太频繁")])
+    def test_fail_login(self, user, pwd, tips):
+        self.xueqiu.goto_login().goto_other_login()
+        self.loginpage.login(user, pwd, tips)
 
-        self.loginpage.goto_other_login()
-
-        self.loginpage.login("999999999999999","123456")
-
-        self.loginpage.find_by("id","button_next").click()
-
-        assert "手机号码填写错误" in self.driver.page_source
-
-        self.loginpage.find_by("XPATH","//*[@text='确定']").click()
-
-    def test_wrong_password(self):
-        self.loginpage.login("13169646888","123456")
-        self.loginpage.find_by("id","button_next").click()
-
-        if self.is_element_exist("xpath", "//*[@text='请求太频繁，请稍后再试']"):
-            pass
-        else:
-            assert "用户名或密码错误" in self.driver.page_source
-        self.driver.find_element_by_xpath("//*[@text='确定']").click()
-
-        self.driver.find_element_by_id("iv_action_back").click()
-        self.driver.find_element_by_id("md_buttonDefaultNegative").click()
-        self.driver.keyevent(4)
-
+        #清场的那个@用法。执行完之后回到首页
+        self.loginpage.back_to_xueqiu()
         assert "基金" in self.driver.page_source
 
 
