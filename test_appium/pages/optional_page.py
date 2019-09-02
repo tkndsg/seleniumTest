@@ -4,7 +4,8 @@ from test_appium.pages.search_page import SearchPage
 
 class OptionalPage(BasePage):
     def goto_search(self):
-        self.driver.find_element_by_id("search_input_text")
+        print("点击搜索框goto_search")
+        self.driver.find_element("id", "action_search").click()
         return SearchPage(self.driver)
 
     def addoptional(self):

@@ -36,3 +36,11 @@ class BasePage:
             flag = False
         finally:
             return flag
+
+    def click_if_element_exit(self, *loc):
+        self.sleep(1)
+        try:
+            self.driver.find_element(*loc).click()
+        except NoSuchElementException :
+            logging.info(Exception)
+            logging.info(str(*loc)+"没有找到，所以没有点击")

@@ -2,23 +2,24 @@ from test_appium.pages.base_page import BasePage
 
 
 class SearchPage(BasePage):
+    _next_time = ("xpath", "//*[@text='下次再说']")
+
     def search(self, keyword):
-        self.driver.find_element_by_id("search_input_text").send_keys(keyword)
+        print("开始search开始搜索")
+        self.driver.find_element("id", "search_input_text").send_keys(keyword)
         self.driver.keyevent(66)
         self.sleep(3)
         return self
 
-    def addoptional(self):
-        if self.is_element_exist("xpath", "//*[@text='BABA']/../../..//*[@text='加自选']"):
-            self.driver.find_element_by_xpath("//*[@text='BABA']/../../..//*[@text='加自选']").click()
-            if self.is_element_exist("xpath", "//*[@text='下次再说']"):
-                self.driver.find_element_by_xpath("//*[@text='下次再说']").click()
+    def addoptional(self, symbol):
+        self.driver.find_element("xpath", "//*[@text='%s']/../../..//*[@text='加自选']" % symbol).click()
+        self.click_if_element_exit(*self._next_time)
         return self
 
-    def dropoptional(self):
-        if self.is_element_exist("xpath", "//*[@text='BABA']/../..//*[@text='已添加']"):
-            print("需要点已添加")
-            self.sleep(3)
-            self.driver.find_element_by_android_uiautomator('new UiSelector().text("已添加");').click()
-            print("已经点了已添加")
+    def dropoptional(self, symbol):
+        self.driver.find_element("xpath", "//*[@text='%s']/../..//*[@text='已添加']" % symbol).click()
+            # self.driver.find_element_by_android_uiautomator('new UiSelector().text("已添加");').click()
         return self
+
+    def back_to_xuqiu(self):
+        self.find_by("id", "action_close").click()
