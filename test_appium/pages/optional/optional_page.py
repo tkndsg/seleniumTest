@@ -1,5 +1,5 @@
 from test_appium.pages.base_page import BasePage
-from test_appium.pages.search_page import SearchPage
+from test_appium.pages.stock.search_page import SearchPage
 
 
 class OptionalPage(BasePage):

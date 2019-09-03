@@ -6,7 +6,6 @@ from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
-from test_po.common_util import CommonUtil
 
 
 class BasePage:
@@ -15,6 +14,9 @@ class BasePage:
 
     def sleep(self, param):
         time.sleep(param)
+
+    def quit(self):
+        self.driver.quit()
 
     def find_by(self, *loc):
         return self.driver.find_element(*loc)

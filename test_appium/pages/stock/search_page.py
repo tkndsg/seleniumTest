@@ -17,8 +17,8 @@ class SearchPage(BasePage):
         return self
 
     def dropoptional(self, symbol):
-        self.driver.find_element("xpath", "//*[@text='%s']/../..//*[@text='已添加']" % symbol).click()
-            # self.driver.find_element_by_android_uiautomator('new UiSelector().text("已添加");').click()
+        print("//*[@text='%s']/../..//*[@text='已添加']" % symbol)
+        self.driver.find_element("xpath", "//*[@text='%s']/../../..//*[@text='已添加']" % symbol).click()
         return self
 
     def back_to_xuqiu(self):

@@ -15,6 +15,7 @@ class LoginPage(BasePage):
 
     def goto_other_login(self):
         self.driver.find_element_by_xpath("//*[contains(@resource-id,'login_more')]").click()
+        return self
 
     def login(self,phone, password, tips):
         locator = "//*[contains(@text,'"+tips+"')]"
@@ -33,9 +34,11 @@ class LoginPage(BasePage):
             self.back_to_xueqiu()
             assert False
         self.driver.find_element(*self._btn_ok).click()
+        return self
 
     def back_to_xueqiu(self):
         self.driver.find_element_by_id("iv_action_back").click()
         self.driver.find_element_by_id("md_buttonDefaultNegative").click()
         self.driver.keyevent(4)
         self.sleep(2)
+        return self
