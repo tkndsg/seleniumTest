@@ -1,3 +1,5 @@
+from appium.webdriver.common.touch_action import TouchAction
+
 from test_appium.pages.base_page import BasePage
 
 
@@ -17,6 +19,17 @@ class SearchPage(BasePage):
         return self
 
     def dropoptional(self, symbol):
+        print("//*[@text='%s']/../..//*[@text='已添加']" % symbol)
+        self.driver.find_element("xpath", "//*[@text='%s']/../../..//*[@text='已添加']" % symbol).click()
+        return self
+
+    def dropoptional_longpress(self, symbol):
+        # todo 这块没有做
+
+        e1 = self.driver.find_element("xpath", "//*[@text='%s']/../../..//*[@text='加自选']" % symbol)
+        TouchAction.long_press(e1)
+
+        # todo 这块需要做
         print("//*[@text='%s']/../..//*[@text='已添加']" % symbol)
         self.driver.find_element("xpath", "//*[@text='%s']/../../..//*[@text='已添加']" % symbol).click()
         return self

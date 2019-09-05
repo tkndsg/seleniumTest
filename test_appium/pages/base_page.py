@@ -44,5 +44,6 @@ class BasePage:
         try:
             self.driver.find_element(*loc).click()
         except NoSuchElementException :
+            print(*loc)
             logging.info(Exception)
-            logging.info(str(*loc)+"没有找到，所以没有点击")
+            logging.info("没有找到，所以没有点击")

@@ -14,11 +14,11 @@ class TestOptional:
         self.xueqiu.sleep(5)
         self.xueqiu.driver.quit()
 
-    @pytest.mark.parametrize("keyword, stock_name, symbol",[("alibaba", "阿里巴巴", "BABA"), ("xiaomi", "小米集团-W", "01810"), ("google", "谷歌", "GOOGL")])
+    @pytest.mark.parametrize("keyword, stock_name, symbol", [("alibaba", "阿里巴巴", "BABA"), ("xiaomi", "小米集团-W", "01810"), ("google", "谷歌A", "GOOGL")])
     def test_addoptional(self, keyword, stock_name, symbol):
         self.xueqiu.goto_optional().goto_search().search(keyword).addoptional(symbol).back_to_xuqiu()
         assert stock_name, symbol in self.xueqiu.driver.page_source
-        self.xueqiu.driver.keyevent(4)
+        # self.xueqiu.driver.keyevent(4)
 
     @pytest.mark.parametrize("keyword, stock_name, symbol", [("alibaba", "阿里巴巴", "BABA"), ])
     def test_dropoptional_search(self, keyword, stock_name, symbol):
