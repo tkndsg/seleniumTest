@@ -1,3 +1,5 @@
+from appium.webdriver.common.touch_action import TouchAction
+
 from test_appium.pages.base_page import BasePage
 from test_appium.pages.stock.search_page import SearchPage
 
@@ -15,5 +17,9 @@ class OptionalPage(BasePage):
                 self.driver.find_element_by_xpath("//*[@text='下次再说']").click()
         return self
 
-    def dropoptional(self):
+    def dropoptional(self, symbol):
+        stock = self.driver.find_element("xpath", "//*[@text='%s']" % symbol)
+        print("//*@text='%s']" % symbol)
+        TouchAction(self.driver).long_press(stock).perform()
+        self.driver.find_element("xpath", "//*[@text='删除']")
         return self
